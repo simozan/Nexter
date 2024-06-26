@@ -18,6 +18,11 @@ body {
   line-height: 1.6;
 }
 
+.conteiner {
+  display: grid;
+  grid-template-rows: 80vh;
+}
+
 .sidebar {
   background-color: #c69963;
 }
@@ -31,7 +36,7 @@ body {
 }
 
 .features {
-  background-color: #6D5D4B;
+  background-color: #aaa;
 }
 
 .story__pictures {
@@ -39,6 +44,18 @@ body {
 }
 .story__content {
   background-color: #f9f7f6;
+}
+
+.homes {
+  background-color: #101d2c;
+}
+
+.gallery {
+  background-color: #54483A;
+}
+
+.footer {
+  background-color: #101d2c;
 }
 
 /*# sourceMappingURL=style.css.map */
