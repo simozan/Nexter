@@ -34,7 +34,7 @@ body{
     line-height: 1.6;
 }
 
-.conteiner {
+.container {
     display: grid;
-    grid-template-rows: 80vh;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 }
