@@ -29,6 +29,16 @@
   }
   &__name {
     grid-column: 1 / -1;
+
+    font-family: $font-display;
+    justify-self: center;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: $color-secondary;
+    color: #fff;
+    font-weight: 400;
+    width: 80%;
   }
   &__locations,
   &__rooms,
