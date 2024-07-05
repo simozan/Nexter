@@ -11,6 +11,7 @@
   background-color: $color-grey-light-1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 3.5rem;
   &__img {
     width: 100%;
     grid-row: 1 / 2;
@@ -29,6 +30,10 @@
   }
   &__name {
     grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    z-index: 3;
+    align-self:flex-end;
+    transform: translateY(50%);
 
     font-family: $font-display;
     justify-self: center;
@@ -40,7 +45,7 @@
     font-weight: 400;
     width: 80%;
   }
-  &__locations,
+  &__location,
   &__rooms,
   &__area,
   &__price {
