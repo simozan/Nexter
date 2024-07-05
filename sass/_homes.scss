@@ -17,7 +17,8 @@
     grid-row: 1 / 2;
     grid-column: 1 / -1;
     z-index: 1;
-}
+  }
+
   &__like {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
@@ -28,11 +29,12 @@
     justify-self: end;
     margin: 1rem;
   }
+
   &__name {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     z-index: 3;
-    align-self:flex-end;
+    align-self: flex-end;
     transform: translateY(50%);
 
     font-family: $font-display;
@@ -45,19 +47,29 @@
     font-weight: 400;
     width: 80%;
   }
+
   &__location,
-  &__rooms,
+  &__rooms {
+    margin-top: 2.5rem;
+    
+  }
+
   &__area,
-  &__price {
+  &__price,
+  &__location,
+  &__rooms  {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
     svg {
       fill: $color-primary;
       height: 2rem;
       width: 2rem;
-    }
-    p {
+      margin-right: 1rem;
     }
   }
   &__btn {
     grid-column: 1 / -1;
-}
+  }
 }

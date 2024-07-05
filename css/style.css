@@ -215,10 +215,20 @@ body {
   font-weight: 400;
   width: 80%;
 }
-.home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+.home__location, .home__rooms {
+  margin-top: 2.5rem;
+}
+.home__area, .home__price, .home__location, .home__rooms {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+.home__area svg, .home__price svg, .home__location svg, .home__rooms svg {
   fill: #c69963;
   height: 2rem;
   width: 2rem;
+  margin-right: 1rem;
 }
 .home__btn {
   grid-column: 1/-1;
