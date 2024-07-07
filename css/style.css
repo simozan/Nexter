@@ -335,4 +335,14 @@ body {
   transform: translateY(-3px);
 }
 
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
 /*# sourceMappingURL=style.css.map */
