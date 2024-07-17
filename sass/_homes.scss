@@ -31,11 +31,11 @@
   }
 
   &__name {
-    grid-column: 1 / -1;
     grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self: end;
     z-index: 3;
-    align-self: flex-end;
-    transform: translateY(50%);
 
     font-family: $font-display;
     justify-self: center;
